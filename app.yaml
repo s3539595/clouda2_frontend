@@ -1,0 +1,9 @@
+runtime: php72
+
+handlers:
+
+- url: /(.+\.php)$
+  script: auto
+
+- url: /.*
+  script: auto
